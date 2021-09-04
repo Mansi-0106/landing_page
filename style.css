@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(166, 135, 238);
+}
+
+.navbar-brand img{
+    height: 50px;
+}
+.bg-light {
+    background-color: #2D006B !important;
+}
+.btn-outline-success {
+    color: gold;
+    border-color: gold;
+}
+.text__navbar{
+    color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+        background-image: url(https://img2.pngio.com/chocolate-bar-milk-chocolate-tablette-de-chocolat-milk-png-milk-chocolate-bar-png-1440_1440.png);
+}
+.navbar-light .navbar-toggler {
+    color: gold;
+    border-color: gold;
+}
+.btn-outline-success {
+    color: white;
+    border-color: gold;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: rgb(190, 166, 25);
+    border-color: white;
+}
+
+/* parallex effect */
+.mouse__move {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mouse__move h2 {
+    position: relative;
+    font-size: 100px;
+    color: white;
+  }
+
+  .mouse__move img {
+    position: absolute;
+    top: 0.5;
+    left: 2;
+    width: 100px;
+    height: 100px;
+  }
+  /* text */
+  .signup__page{
+      background-image: url(https://149463748.v2.pressablecdn.com/wp-content/uploads/2020/05/hearts_6.gif);
+      height: auto;
+      width: auto;
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size: cover;
+      border-radius: 10px;
+      box-shadow:inset  0px 0px 6px #ffffff;
+      padding: 10px;
+      text-align: center;
+  }
+  .signup__page h1{
+      margin-top: 30px;
+      color: gold;
+      font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+  .signup__page input{
+      margin-top: 15px;
+      margin-bottom: 30px;
+      width: 80%;
+      height:40px;
+      text-decoration: none;
+      border: none;
+      box-shadow: 0px 0px 6px #000000;
+  }
+  /* signin */
+  .signin__page{
+    background-image: url(https://format-com-cld-res.cloudinary.com/image/private/s--J0cuCTP6--/c_limit,g_center,h_65535,w_900/fl_keep_iptc.progressive,q_95/v1/d15856a10a5d0755346df5d45ee74a72/Cadbury_Animation.gif);
+    height: auto;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:inset  0px 0px 6px #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.signin__page h1{
+    margin-top: 30px;
+    color: gold;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.signin__page input{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 80%;
+    height:40px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0px 0px 6px #000000;
+}
+
+/* footer */
+.footer__added{
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 0%;
+    padding: 20px;
+}
+.footer__added p{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+.footer__added h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: gold;
+    text-align: center;
+    text-shadow: 0px 0px 6px #b7d126;
+}
+
+.register{
+    position: absolute;
+    height: 500px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* responsive */
+@media only screen and (max-width:550px){
+.register{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    overflow: scroll;
+}
+.signin__page{
+    width: auto;
+    margin-top: 30px;
+}
+.mouse__move{
+    height: 90vh;
+}
+
+}
